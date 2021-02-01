@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>
+    Making Chaos - wie Dilettanten in Frankfurt die Verkehrswende vermasselten
+  </title>
+
+  <style>
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .margin {
+      margin-bottom: 45px;
+    }
+
+    .bg-1 {
+      background-color: #1abc9c;
+      /* Green */
+      color: #ffffff;
+    }
+
+    .bg-2 {
+      background-color: #474e5d;
+      /* Dark Blue */
+      color: #ffffff;
+    }
+
+    .bg-3 {
+      background-color: #ffffff;
+      /* White */
+      color: #555555;
+    }
+
+    .bg-4 {
+      background-color: #2f2f2f;
+      /* Black Gray */
+      color: #fff;
+    }
+
+    .bg-5 {
+      background-color: #474e5d;
+      /* Black Gray */
+      color: #555555;
+    }
+
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+
+    .navbar-nav li a:hover {
+      color: #1abc9c !important;
+    }
+
+    footer {
+      background: #16222A;
+      background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+      background: linear-gradient(59deg, #3A6073, #16222A);
+      color: white;
+      margin-top: 100px;
+    }
+
+    footer a {
+      color: #fff;
+      font-size: 14px;
+      transition-duration: 0.2s;
+    }
+
+    footer a:hover {
+      color: #FA944B;
+      text-decoration: none;
+    }
+
+    .copy {
+      font-size: 12px;
+      padding: 10px;
+      border-top: 1px solid #FFFFFF;
+    }
+
+    .footer-middle {
+      padding-top: 2em;
+      color: white;
+    }
+
+
+    /*SOCİAL İCONS*/
+
+    /* footer social icons */
+
+    ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left: 0 !important;
+      padding: 0;
+    }
+
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+
+    /* footer social icons */
+
+    .social-network a.icoFacebook:hover {
+      background-color: #3B5998;
+    }
+
+    .social-network a.icoLinkedin:hover {
+      background-color: #007bb7;
+    }
+
+    .social-network a.icoFacebook:hover i,
+    .social-network a.icoLinkedin:hover i {
+      color: #fff;
+    }
+
+    .social-network a.socialIcon:hover,
+    .socialHoverClass {
+      color: #44BCDD;
+    }
+
+    .social-circle li a {
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      font-size: 15px;
+    }
+
+    .social-circle li i {
+      margin: 0;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .social-circle li a:hover i,
+    .triggeredHover {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+
+    .social-circle i {
+      color: #595959;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+
+    .social-network a {
+      background-color: #F9F9F9;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand pr-3" href="#">Making Chaos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="radlobby.html">Horst der Radfahrer</a></li>
+        <li class="nav-item"> <a class="nav-link" href="makingfrankfurt.html">Making Frankfurt</a></li>
+        <li class="nav-item"> <a class="nav-link" href="concept.html">Wie es gehen könnte</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- First Container -->
+  <div class="container-fluid bg-1 text-center">
+    <h1 class="margin">
+      Making Chaos
+    </h1>
+    <h2 class="margin">
+      - wie Dilettanten in Frankfurt die Verkehrswende vermasselten -
+    </h2>
+    <img src="images/untermain_quadrat.png" class="img-responsive img-circle margin" style="display: inline" alt="Bird"
+      width="350" height="350" />
+    <h2>Sie wussten, was sie wollen . . . </h2>
+    <p>
+      Sie hatten Vorbilder: Paris, Amsterdam, Kopenhagen, Wien. Sie wollten fortschrittlich sein. Frankfurt sollte auch
+      eine autofreie Innenstadt bekommen. in der Innenstadt sollte es weniger Lärm, weniger
+      Emissionen, eine bessere Lebensqualität geben. Und Kindern und Radfahrern wollte man mehr Platz und mehr
+      Sicherheit verschaffen. Die Sperrung des Mainkais, der nördlichen Mainuferstraße sollte der erste Schritt dazu
+      sein, der erste Schritt zu einer "sozial-ökologischen Verkehrswende" (SPD Jargon).
+    </p>
+  </div>
+
+  <!-- Second Container -->
+  <div class="container-fluid bg-2 text-center">
+    <h2 class="margin"> . . . aber sie wussten nicht, wie es geht</h2>
+
+    <p>
+      Einen Plan, ein Konzept, eine Strategie gab es nie. Für jeden
+      Abteilungsleiter in der Wirtschaft ist es eine Selbstverständlichkeit,
+      dass nach dem Ziel und vor den Maßnahmen die Strategie stehen muss.
+      Nicht so für die für den Verkehr verantwortliche SPD.
+      Der designierte Bundestags-Kandidat der SPD, Oliver
+      Strank: "Eine Verkehrswende kann man nicht planen. Man muss einfach mal machen und dann nachsteuern."
+    </p>
+    <p>
+      Und so machten sie es dann auch. Sie stellten ohne jeden Plan und ohne
+      jede Vorbereitung einfach Betonpoller am Mainkai - einer Hauptverkehrsstraße! - auf und schauten zu, was
+      passiert. Der SPD-Verkehrsdezernent: "Die Autos sollen sich ihren Weg suchen".
+    </p>
+    <hr />
+    <p>
+      Und die Autos suchten sich ihren Weg - in der Innenstadt, also ausgerechnet dort, wo es eigentlich keine Autos
+      mehr geben sollte und in den Wohngebieten in Nordsachsenhausen, dem anderen zentralen Frankfurter Stadtteil auf
+      der südlichen Mainseite.
+    </p>
+    <hr />
+  </div>
+
+
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-3 text-center">
+    <h2 class="margin">
+      Von vornherein wurde versucht, ganz Frankfurt für dumm zu verkaufen . . .
+    </h2>
+    <p>
+      Die SPD wollte einen alten Traum verwirklichen und den Mainkai sperren.
+      Alle SPD-Politiker wussten,
+      dass die vorbereitungslose Sperrung einer durch das Stadtzentrum
+      führenden Hauptverkehrsstraße eine Verkehrverlagerung ist aber keine Verkehrsreduzierung (der
+      Zweck jeder Verkehrswende).
+      Also ging man auf Dummenfang und stellte die Sperrung als ersten Schritt zu einer "sozial-ökologischen
+      Verkehrswende" dar.
+
+    </p>
+
+    <div class="row equal">
+      <div class="col-sm-12  col-md-4  d-flex  ">
+        <div class="card bg-2 card-block ">
+          <img src="images/inset_innenstadt_1200.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class=" card-body  h-100  " style=" padding: 10px;">
+            <h4 class="card-title">Autofreie Innenstadt ?</h4>
+            <p class="card-text  text-left">
+              Man versprach den Bürgern eine autofreie Innenstadt - und drängte einen
+              signifikanten Teil des Mainkai-Verkehrs noch zusätzlich in die
+              ohnehin schon hoch belastete Berliner Straße - <b>mitten ins Herz der Innenstadt</b>.
+            </p>
+            <p class="card-text text-left  ">
+              <b>
+                <i>
+                  Eine Erhöhung des Verkehrsaufkommens in der Berliner Straße und ihren Nebenstraßen, deutlich mehr
+                  Verkehr in allen Straßen in der Innenstadt - das wurde den Bürgern als erster Schritt zu einer
+                  autofreien Innenstadt verkauft!
+                </i>
+              </b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-4  d-flex ">
+        <div class="card bg-2 card-block ">
+          <img src="images/inset_muf2.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class=" card-body   h-100  " style=" padding: 10px;">
+            <h4 class="card-title">Mehr Lebensqualität ?</h4>
+            <p class="card-text text-left">
+              Man versprach mehr Lebensqualität, bessere Luft, weniger Lärm -
+              und erhöhte ausgerechnet dort, wo Frankfurt seit Jahrzehnten die
+              größten Verkehrsprobleme hat - in der Innenstadt und Nordsachsenhausen - das Verkehrsaufkommen. Anstatt
+              die Bürger in diesen Stadtteilen zu entlasten, drängte man ihnen noch zusätzlich
+              den Mainkai-Verkehr in ihre ohnehin schon überlasteten Straßen.
+            </p>
+            <p class="card-text text-left  ">
+              <b>
+                <i>
+                  Die Erhöhung der Emissions- und Lärmbelastung in allen zentralen Stadtteilen wurde den
+                  Frankfurtern als Verbesserung der Lebensqualität verkauft!
+                </i>
+              </b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-4 d-flex ">
+        <div class="card bg-2 card-block">
+          <img src="images/inset_schweizerregen_1200.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class=" card-body   h-100 " style="padding: 10px; ">
+            <h4 class="card-title">"Leuchtende Kinderaugen" ?</h4>
+            <p class="card-text text-left">
+              Der Mainkai wurde angeblich für Radfahrer und Kinder gesperrt. In der
+              Innenstadt gibt es aber kaum Kinder, das ist ein
+              Geschäftsviertel, in dem es nur eine einzige Grundschule gibt,
+              meilenweit entfernt vom Mainkai. Ganz anders in
+              Sachsenhausen, da gibt es 8 Grundschulen. Und genau da wurde das Verkehrsaufkommen erhöht.
+            </p>
+            <p class="card-text text-left ">
+              <b>
+                <i>
+                  Die bewusste Gefährdung von Radfahrern und annähernd 10.000 Kleinkindern in Sachsenhausen wurde den
+                  Frankfurtern als Verkehrswende für Kinder und Radfahrer verkauft!
+                </i>
+              </b>
+              </b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-sm-12 ">
+
+        <div class="container">
+          <div class="jumbotron">
+            <h2>Mehr Lebensqualität mit mehr Verkehr ???</h2>
+            <p>
+              <b>
+                <i>
+                  Es ist das Selbstverständlichste schlechthin, dass es eine bessere Lebensqualität, weniger Lärm,
+                  weniger Emissionen und mehr Verkehrssicherheit für Kinder und Radfahrer nur mit weniger Verkehr geben
+                  kann. Aber es gab nicht weniger Verkehr, sondern mehr (nur am Mainkai nicht)!
+                </i>
+              </b>
+            </p>
+            <p>
+              Die Mainkai-Sperrung war eine reine Verschiebung von Verkehrsmassen, von einer Straße in andere, von einer
+              Mainseite auf die andere. Da dem Verkehr vorbereitungslos Fläche entzogen wurde,
+              erhöhte sich überall im Stadtkern die Verkehrsdichte - mit gravierenden negativen Folgen für die Lärm- und
+              Emissionsbelastung.
+            </p>
+            <p>
+              Alle Ziele, die man mit der "sozial-ökologischen Verkehrswende" erreichen wollte, wurden konterkariert.
+              Und alle Probleme, die man lösen wollte - zu viel Verkehr, Lärm und Emissionen und zu
+              wenig Platz und Sicherheit für Kinder und Radfahrer - wurden nicht nur nicht gelöst, sie wurden sogar
+              verschärft.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid bg-1 text-center">
+    <h2 class="margin">. . . und halb Frankfurt ließ sich für dumm verkaufen</h2>
+    <hr style="border: solid white 1px;" />
+    <h5>
+      Der Gedanke an eine grüne Wiese am Main verdrängte bei einigen alles andere aus dem Gehirn,
+      vor allem das Schlussfolgerungsvermögen. Sie sahen nur die grüne Wiese am Main aber nicht die
+      negativen Folgen, die durch eine plan- und vorbereitungslose (ohne vorherige Verkehrsreduzierung) Sperrung einer
+      Hauptverkehrsstraße entstanden.
+    </h5>
+    <hr style="border: solid white 1px;" />
+
+
+    <div class="row equal">
+      <div class="col-sm-12  col-md-4 d-flex ">
+        <div class="card bg-2  card-block  ">
+          <img src="images/inset_schweizer_flohmarkt1.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class="card-body" style=" padding: 10px;">
+            <h4 class="card-title">Radfahrerlobbyisten wurden zu Radfahrerfeinden</h4>
+            <p class="card-text text-left">
+              Der <b>ADFC</b> forderte eine dreispurige Straße für sich, beidseitige
+              Radwege am Mainkai waren nicht genug.
+              Dass dadurch zehntausende Radfahrer im Stadtzentrum und in Sachsenhausen durch eine höhere Verkehrs- und
+              LKW-Dichte in Gefahr gebracht wurden, war ihnen egal.
+            </p>
+            <p class="card-text text-left">
+              Es war ihnen auch egal, dass die Radfahrer in Sachsenhausen auf Radwege verzichten mussten,
+              weil das Verkehrsdezernat "erst die Verkehrsentwicklung durch die
+              Mainkai-Sperrung abwarten" wollte (im Klartext: Die Straßenkapazität wurde für den
+              Mainkai-Verkehr benötigt). Ein paar hundert Meter autofreier Mainkai war ihnen wichtiger als Radwege für
+              zehntausende Radfahrer in Sachsenhausen.
+            </p>
+            <p class="card-text text-left">
+              Auf der Radentscheid-Website war zu lesen: "In Sachsenhausen gab es schon immer zu viel Staus und Verkehr.
+              Es war noch nie ein Spaß, in Sachsenhausen Rad zu fahren."
+              Das betrachtete man beim ADFC tatsächlich als Argument dafür, zusätzlich die Verkehrsmassen vom
+              Mainkai in die Sachsenhäuser Straßen drängen und zehntausende Radfahrer in Gefahr bringen zu können.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-4 d-flex ">
+        <div class="card bg-2  card-block  ">
+          <img src="images/inset_schaumain_1200.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class="card-body " style="  padding: 10px;">
+            <h4 class="card-title">Umweltschützer wurden zu Umweltverschmutzern</h4>
+            <p class="card-text text-left">
+              Umweltschützer von Fridays for Future und Greenpeace demonstrierten und demonstrieren bis heute für die
+              Mainkai-Sperrung - und damit für eine "Verkehrswende", die das Verkehrsaufkommen und damit den Lärm und
+              die Emissionen im Stadtzentrum erhöht.
+            </p>
+            <p class="card-text text-left">
+              Oder sollte die Ruinierung der Aufenthaltsqualität in der gesamten
+              Innenstadt und in Einkaufsstraßen wie der Schweizer Straße durch mehr Verkehr, mehr Lärm und mehr
+              Emissionen etwa im Interesse von Umweltschützern liegen?.
+            </p>
+
+            <p class="card-text text-left">
+              Ausgerechnet Umweltschützer begriffen nicht, dass es mehr Umweltschutz nur mit weniger Verkehr geben
+              kann, dass eine Verkehrsverlagerung aber keine Verkehrsreduzierung ist.
+            </p>
+
+            <p class="card-text text-left">
+              Anstatt sich für eine flächendeckende Verkehrsreduzierung im gesamten Stadtzentrum einzusetzen,
+              demonstrierten sie für die Sperrung einer einzelnen Straße - und damit (auch wenn sie das sicher nicht
+              wollten) für eine Verkehrserhöhung in allen anderen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12  col-md-4 d-flex ">
+        <div class="card bg-2  card-block   ">
+          <img src="images/inset_stresemann_1200.png" class="card-img-top" alt="..." style="width: 100%" />
+          <div class="card-body  " style="  padding: 10px; ">
+            <h4 class="card-title">Stadtplaner wurden zu Chaoten</h4>
+
+            <p class="card-text text-left">
+              Auch einige Architekten mischten sich in die Verkehrspolitik ein.
+              An ihrer Spitze der Leiter des Architekturmuseums und der Sprecher des Städtebaubeirats.
+              Sie setzten sich dafür ein, nicht nur die komplette Innenstadt vom Verkehr zu befreien sondern auch beide
+              Mainuferstraßen.
+            </p>
+
+            <p class="card-text text-left">
+              Ihr Traum: Die 40.000 Fahrzeuge von den Mainauferstraßen lösen sich in Luft auf, kein Wort darüber was
+              mit diesem Verkehr geschehen soll.
+            </p>
+
+            <p class="card-text text-left">
+              Die Realität (bereits zu sehen anlässlich des Museumsuferfests 2019) : Etwa 20.000 Fahrzeuge vom Mainkai
+              zusätzlich in der Berliner Straße und etwa 20.000 zusätzliche Fahrzeuge vom Schaumainkai zusätzlich in
+              der Walter-Kolb-/Gartenstraße, mitten im Herz von Sachsenhausen! Chaotische Zustände in allen zentralen
+              Stadtteilen, Staus, Lärm, Hupkonzerte bis in die letzte Wohnstraße hinein, Fortbewegungsgeschwindigkeit 20
+              min/100m.
+            </p>
+
+            <p class="card-text text-left">
+              Ihre Initiative "Making Frankfurt" hätten sie besser "Making Chaos" genannt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-5 text-left">
+    <h2 class="margin text-center text-white "> Die Kardinalfehler</h2>
+
+    <div class="row equal">
+      <div class="col-sm-12  col-md-6  d-flex  ">
+
+        <div class="card">
+          <h4 class="card-header text-center bg-secondary text-white ">Planlosigkeit</h4>
+          <div class="card-body">
+            <h5 class="card-title text-center">
+              Die Mainkai-Sperrung wurde nicht als Teil eines Maßnahmenbündels im Rahmen der
+              Umsetzung einer integrierten Verkehrsplanung gesehen, sondern als deren Ziel.
+            </h5>
+            <p class="card-text">
+              Eine Verkehrsplanung die zu einer Verkehrswende führt,
+              besteht aus Zielen, Strategien und Maßnahmen, die top-down alle voneinander abzuleiten sind.
+              Wer gleich mit Maßnahmen beginnt, agiert im strategiefreien Raum und setzt Dinge um, die eventuell gegen
+              die Ziele einer Verkehrswende gerichtet sind. So auch die Mainkai-Sperrung. Ziel jeder
+              Verkehrswende muss weniger Verkehr sein. Mit der Mainkai-Sperrung wurde das Gegenteil erreicht.
+            </p>
+            <p class="card-text">
+              Straßensperungen müssen Teil eines Maßnahmenbündels zur Umsetzung
+              einer Stategie sein, dürfen nicht völlig isoliert von anderen Maßnahmen durchgeführt werden. Nur eine
+              einzige Straße zu sperren bewirkt nichts und schadet nur. Der Verkehr im gesamten Stadtzentrum inkl.
+              Nordsachsenhausen muss als Ganzes betrachtet, die Maßnahmen müssen aufeinander abgestimmt werden und zu
+              einer Verkehrsreduzierung im gesamten Stadtkern führen.
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-sm-12  col-md-6  d-flex  ">
+        <div class="card">
+          <h4 class="card-header text-center bg-secondary text-white ">Vorbereitungslosigkeit</h4>
+
+          <div class="card-body">
+            <h5 class="card-title text-center">
+              Hauptverkehrsstraßen kann man nicht sperren ohne vorher die Voraussetzungen dafür zu schaffen
+            </h5>
+            <p class="card-text">
+              Städte wie London, Stockholm etc. haben eine City-Maut eingeführt um den Verkehr im Stadtzentrum zu
+              reduzieren.
+              Andere wie Düsseldorf etc. haben den Verkehr unter die Erde gebracht und untertunnelte Stadtquerungen
+              geschaffen.
+            </p>
+            <p class="card-text">
+              Die Frankfurter Mainuferstraßen sind Hauptverkehrsstraßen, die mitten durchs Stadtzentrum führen.
+              Die kann man niemals sperren, ohne ein Verkehrschaos in anderen Straßen anzurichten, wenn
+              die Voraussetzungen dafür vorher nicht geschaffen werden. Entweder man sorgt für
+              eine signifikante Verkehrsreduzierung im Stadtkern durch eine City-Maut oder man bringt den Verkehr unter
+              die Erde (z. B. durch einer Verlängerung des Theatertunnels.) oder - noch besser - man kombiniert beides.
+            </p>
+            <p class="card-text">
+              Wer eine autofreie oder verkehrsberuhigte Innenstadt will, sollte auch bei den kleinen, problemlos
+              sperrbaren
+              Straßen in der Innenstadt beginnen und nicht bei eine Hauptverkehrsstraße an ihrem Rand.
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="mainfooter" role="contentinfo">
+    <div class="footer-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4>"Sachsenhausen wehrt sich"</h4>
+              <p>
+                - eine Initiative für eine professionell geplante und gerechte Mobilitätswende in Frankfurt
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-sm-12">
+            <h4>Folgen Sie uns</h4>
+            <ul class="social-network social-circle">
+              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - Herbert K. Schmoll. All rights reserved.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
